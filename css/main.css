@@ -128,7 +128,7 @@ html {
 }
 
 /* High density mobile */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 60em), only screen and (min-resolution: 192dpi) and and (max-width: 60em) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 80em), only screen and (min-resolution: 192dpi) and (max-width: 80em) {
   body { font-size: 80%; }
 }
 
