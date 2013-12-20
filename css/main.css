@@ -89,9 +89,9 @@ html {
   color: white;
   text-decoration: none;
   padding: .5em 1em;
-        transition: background .3s ease-in-out;
-   -moz-transition: background .3s ease-in-out;
--webkit-transition: background .3s ease-in-out;
+        transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
 }
 
 .contact:hover {
