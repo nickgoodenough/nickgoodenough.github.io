@@ -103,7 +103,7 @@ html {
   height: 1.42em;
 }
 
-/* */
+/* Standard Mobile */
 @media only screen and (max-width: 40em) {
    body { font-size: 80%; }
   .footer {
@@ -114,7 +114,7 @@ html {
   }
 }
 
-/* */
+/* Landscape */
 @media only screen and (max-aspect-ratio: 3/4) {
   html {
     background-image: url(../img/vertical.jpg);
@@ -125,6 +125,11 @@ html {
   .footer p {
     display: block;
   }
+}
+
+/* High density mobile */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 60em), only screen and (min-resolution: 192dpi) and and (max-width: 60em) {
+  body { font-size: 80%; }
 }
 
 /* ==========================================================================
