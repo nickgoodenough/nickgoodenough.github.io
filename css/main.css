@@ -78,7 +78,7 @@ html {
   text-align: right;
 }
 
-.footer a, .footer p {
+.footer p {
    display: inline-block;
 }
 
@@ -111,8 +111,8 @@ html {
   .footer {
      text-align: center;
   }
-  .footer a, .footer p {
-    display: initial;
+  .footer p {
+    display: block;
   }
 }
 
