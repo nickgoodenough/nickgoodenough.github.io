@@ -78,7 +78,7 @@ html {
   text-align: right;
 }
 
-footer a, footer p {
+.footer a, .footer p {
    display: inline-block;
 }
 
@@ -108,7 +108,7 @@ footer a, footer p {
   html {
     background-image: url(../img/vertical.jpg);
   }
-  footer {
+  .footer {
      text-align: center;
   }
 }
