@@ -111,6 +111,9 @@ html {
   .footer {
      text-align: center;
   }
+  .footer a, .footer p {
+    display: initial;
+  }
 }
 
 /* ==========================================================================
