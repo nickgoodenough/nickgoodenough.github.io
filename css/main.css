@@ -74,13 +74,22 @@ html {
   html {
     background-image: url(../img/vertical.jpg);
   }
+  footer {
+     text-align: center;
+  }
 }
 
 .footer {
   position: fixed;
   bottom: 0;
+  left: 0;
   right: 0;
-  margin: 1em;
+  margin: 0 1em;
+  text-align: right;
+}
+
+footer a, footer p {
+   display: inline-block;
 }
 
 .contact {
@@ -100,8 +109,11 @@ html {
 }
 
 .social-badge {
-  height: 1.42em;
   margin-left: .5em;
+}
+
+.social-badge img {
+  height: 1.42em;
 }
 
 /* ==========================================================================
