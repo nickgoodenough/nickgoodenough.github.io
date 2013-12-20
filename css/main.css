@@ -76,6 +76,34 @@ html {
   }
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1em;
+}
+
+.contact {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  padding: .5em 1em;
+        transition: background .3s ease-in-out;
+   -moz-transition: background .3s ease-in-out;
+-webkit-transition: background .3s ease-in-out;
+}
+
+.contact:hover {
+  background: white;
+  color: #222;
+}
+
+.social-badge {
+  height: 1.42em;
+  margin-left: .5em;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
